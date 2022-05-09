@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    letter-spacing: .5;
+    word-break: .5;
+    line-height: 1.5;
+    transition: .7s ease-in-out;
+    box-sizing: border-box;
+}
+
+/* Navigation Section */
+.navbar {
+    z-index: 2;
+}
+
+.nav-item {
+    padding: 0 .5rem !important;
+    border: 1px solid transparent;
+}
+
+.nav-item:hover {
+    border: 1px solid #ffc107;
+}
+
+
+/* Carousal Section */
+.home .card-container {
+    display: flex;
+    max-width: 960px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+.home .card {
+    border: none;
+}
+
+.home .img-container {
+    text-align: center;
+}
+
+.home .card-container .img-container img {
+    width: 80%;
+}
+
+.home .card a {
+    border: 1px solid #000 !important;
+    padding: .5rem !important;
+    width: 25%;
+}
+
+.home .card a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1240px) {
+    .home .container {
+        padding-bottom: 1rem;
+    }
+
+    .home .card-container {
+        padding: 0 6rem;
+    }
+
+    .home .card {
+        margin-bottom: 3rem;
+    }
+
+    .home .card a {
+        width: 50%
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .home .card-container {
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    .home .card {
+        align-items: center !important;
+    }
+
+    .home .card h2 {
+        text-align: center
+    }
+
+    .home .card p {
+        text-align: center !important;
+        text-align: center
+    }
+
+    .home .img-container {
+        display: none;
+    }
+
+
+}
+
+
+/* Services Section */
+
+#scrollspyHeading2 .card {
+    background-color: #000;
+    flex-wrap: wrap;
+    flex-shrink: none;
+}
+
+#scrollspyHeading2 img {
+    border: .2rem solid #fff;
+    border-radius: 50%;
+    height: 35%;
+    align-self: center;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+#scrollspyHeading2 img:hover {
+    height: 40%;
+    margin-bottom: 10%;
+    transition: .2s ease-in-out
+}
+
+#scrollspyHeading2 .card p {
+    margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+    #scrollspyHeading2 .card {
+        height: 22rem;
+    }
+
+    #scrollspyHeading2 .card p {
+        margin: 0 auto;
+        width: 50% !important;
+    }
+}
+
+/* Services Section */
+@media screen and (max-width:768px) {
+    .portfolio .row div {
+        margin: 1rem 0;
+    }
+}
+
+/* About Section*/
+
+#scrollspyHeading4 .icons i {
+    border-radius: 100%;
+    background-color: #ffc107;
+    padding: 1%;
+}
+
+.purchase a {
+    border: 1px solid #000 !important;
+    padding: .5rem !important;
+    width: 25%;
+}
+
+.purchase a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.about-us{
+    text-align: justify;
+}
+
+
+/* Client Section */
+@media screen and (max-width:546px) {
+    .client .row {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .client .row div {
+        margin: .5rem 0;
+    }
+}
+
+/* Price Section */
+#scrollspyHeading6 .card {
+    margin: 4rem auto;
+    padding: 0;
+}
+
+#scrollspyHeading6 .card-header {
+    background-color: #000;
+    color: #ffc107;
+}
+
+
+#scrollspyHeading6 .card-body p {
+    color: #747c89;
+    border-bottom: 1px solid #747c89;
+    padding: 1rem;
+    margin: 0 0;
+}
+
+#scrollspyHeading6 .card-footer {
+    background-color: #fff;
+
+}
+
+#scrollspyHeading6 .card a {
+    width: 50%;
+    background-color: #000;
+    color: #ffc107;
+    border: 1px solid #ffc107 !important;
+}
+
+#scrollspyHeading6 .card a:hover {
+    width: 50%;
+    color: #000;
+    background-color: #ffc107;
+}
+
+#scrollspyHeading6 a {
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    margin-top: 2rem;
+}
+
+#scrollspyHeading6 a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+
+@media screen and (max-width:768px) {
+    .price .card {
+        margin: 1rem auto;
+        padding: 0;
+    }
+
+    .price .row {
+        margin: 0 10%;
+    }
+
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-image: url(img/brand-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.newsletter div {
+    margin: 0 auto;
+}
+
+.newsletter a {
+    background-color: #ffc107;
+    margin: 0 1rem !important;
+    text-decoration: none;
+    color: #000;
+    padding: .5rem;
+    text-align: center;
+    border: 1px solid #ffc107 !important;
+}
+
+.newsletter a:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.newsletter .input {
+    padding: .5rem;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .nws-wrapper {
+        align-items: center;
+    }
+
+    .newsletter a {
+        margin-top: 1rem !important;
+    }
+}
+
+
+/* Form Control*/
+
+form {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    width: 50%;
+}
+
+form input[type="button"] {
+    margin: 0 auto;
+    background-color: #ffc107;
+}
+
+form input[type="button"]:hover {
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width:640px) {
+    form {
+        width: 80% !important;
+    }
+}
+
+/* Footer */
+
+footer .icons i {
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+footer .icons i:hover {
+    border-radius: 50%;
+    background-color: #000;
+    padding: 1rem;
+    color: #ffc107
+}
+
+
+
+
+
+/* Universal Classs and ID's*/
+
+.container {
+    max-width: 1400px;
+}
+
+.p-top {
+    padding-top: 3rem !important;
+}
+
+.margin-auto {
+    margin: 0 auto !important;
+}
+
+.border-btm {
+    border-bottom: 0.1rem solid #fff !important;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.border-btm-black {
+    border-bottom: 0.1rem solid #000 !important;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.border-btm-yellow {
+    border-bottom: 0.2rem solid #ffc107 !important;
+    width: 100%;
+    margin: 0 auto;
+}
